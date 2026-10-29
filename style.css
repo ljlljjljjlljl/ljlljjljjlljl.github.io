@@ -1,0 +1,114 @@
+body {
+    /* Removes the default page margin. */
+    margin: 0;
+
+    /* Makes the body fill the browser window. */
+    min-height: 100vh;
+
+    /* Enables Flexbox layout. */
+    display: flex;
+
+    /* Centers content horizontally. */
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 3px 0 0;
+}
+
+h1 {
+    /* Adjust the space below the heading. */
+    margin-bottom: 0;
+}
+
+p {
+    /* Reduces the space above the paragraph. */
+    margin-top: -7px;
+
+    /* Sets the paragraph font size. */
+    font-size: 14px;
+
+    /* Changes the text color to gray. */
+    color: grey;
+}
+
+#aboutButton {
+    /* Positions the button relative to the browser window. */
+    position: fixed;
+
+    /* Places the button at the A position. */
+    top: 30vh;
+    left: 50vw;
+
+    /* Centers the button around its position. */
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+
+    /*Sets the button size. */
+    width: 100px;
+    height: 100px;
+
+    /* Makes the button cirnular. */
+    border-radius: 50%;
+
+    /* Sets the button appearance. */
+    background-color: transparent;
+    border: none;
+
+
+    /* Changes the cursor when hovering. */
+    cursor: pointer;
+
+    font-family: inherit;
+
+    font-size: 20px;
+}
+
+#projectsButton {
+
+    position: fixed;
+
+    top: 70vh;
+    left:50vw;
+
+    transform: translate(-50%, -50%);
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+
+    border: none;
+    background-color: transparent;
+
+    font-family: inherit;
+    font-size: 20px;
+    color: black;
+
+    cursor: pointer;
+}
